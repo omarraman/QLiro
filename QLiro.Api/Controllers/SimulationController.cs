@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using QLiro.Interfaces;
-using QLiro.Logic;
 
 namespace QLiro.Api.Controllers
 {

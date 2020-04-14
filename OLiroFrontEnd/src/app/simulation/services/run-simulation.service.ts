@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import {HttpClient, HttpHeaders, HttpParams} from '@angular/common/http';
-import {Observable} from 'rxjs';
+import {Observable, throwError} from 'rxjs';
 import {environment} from '../../../environments/environment';
+import {catchError} from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -25,6 +26,8 @@ export class RunSimulationService {
         params: httpParams,
         responseType: 'json'
       }
+    ).pipe(
+      catchError(this.handleError)
     )	}
 
 
@@ -36,6 +39,6 @@ export class RunSimulationService {
 		${ error.statusText}`
         : 'Server error';
     console.error(_errMsg);
-    return Observable.throw (_errMsg);
+    return throwError(_errMsg);
   }
 }
