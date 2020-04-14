@@ -1,0 +1,14 @@
+#numberBox{
+  padding-bottom: 10px;
+}
+#numberBox>dx-number-box{
+
+  display: inline-block;
+}
+
+#checkbox{
+  padding-bottom: 10px;
+
+}
+
+.dx-button .dx-button-content{padding:14px;}

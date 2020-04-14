@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QLiro.Api", "QLiro.Api\QLiro.Api.csproj", "{C4421D1C-855D-4DBE-92B7-B723F296F680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLiro.Interfaces", "QLiro.Interfaces\QLiro.Interfaces.csproj", "{F1D17021-4CC0-4A50-8B84-4CBA9B1AD99D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLiro.Logic", "QLiro.Logic\QLiro.Logic.csproj", "{27BC3C52-CF05-4051-ADF1-629327C9E3E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4421D1C-855D-4DBE-92B7-B723F296F680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4421D1C-855D-4DBE-92B7-B723F296F680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4421D1C-855D-4DBE-92B7-B723F296F680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4421D1C-855D-4DBE-92B7-B723F296F680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D17021-4CC0-4A50-8B84-4CBA9B1AD99D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D17021-4CC0-4A50-8B84-4CBA9B1AD99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D17021-4CC0-4A50-8B84-4CBA9B1AD99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D17021-4CC0-4A50-8B84-4CBA9B1AD99D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27BC3C52-CF05-4051-ADF1-629327C9E3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BC3C52-CF05-4051-ADF1-629327C9E3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BC3C52-CF05-4051-ADF1-629327C9E3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BC3C52-CF05-4051-ADF1-629327C9E3E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4778D191-85E2-489B-A2CE-0BEC6983A8D1}
+	EndGlobalSection
+EndGlobal

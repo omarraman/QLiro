@@ -1,0 +1,16 @@
+<h1>Monty Hall Simulator</h1>
+
+
+<div id="numberBox">
+  Number of Simulations to Run: <dx-number-box [showSpinButtons]="true" [min]="1" width="100px" value="100"></dx-number-box>
+</div>
+<div id="checkbox">
+  Switch Door: <dx-check-box></dx-check-box>
+
+</div>
+<div id="button">
+  <dx-button   (onClick)="runSimulation()">Run Simulation</dx-button>
+</div>
+<div id="result">
+  <h4>Number of Times Car Picked:{{result}}</h4>
+</div>
